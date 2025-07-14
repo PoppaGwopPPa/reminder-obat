@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  reminder-obat:
+    container_name: reminder-obat
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
+    command: >
+      sh -c "python init_db.py && python app.py"
