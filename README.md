@@ -1,22 +1,21 @@
- Reminder Minum Obat
+ >Reminder Minum Obat
 
 Aplikasi web sederhana untuk membantu mengingat jadwal konsumsi obat harian. Dibangun menggunakan **Flask**, **SQLite**, dan **Docker**, serta dilengkapi fitur notifikasi visual dan suara saat waktu minum obat tiba.
 
- Fitur Utama
+ >Fitur Utama
 
  Tambah, edit, dan hapus data obat
  Notifikasi waktu minum obat berbasis jam lokal browser
  notifikasi suara menggunakan JavaScript
  Siap dijalankan menggunakan Docker dan Docker Compose Tampilan responsif dengan Tailwind CSS
 
-Tampilan Antarmuka
+>Tampilan Antarmuka
 
-> Tambahkan screenshot nanti di sini:
 - Form Tambah Obat
 - Tabel Obat
 - Notifikasi + Suara
 
- Teknologi yang Digunakan
+ >Teknologi yang Digunakan
 
 | Teknologi     | Keterangan                         |
 |---------------|-------------------------------------|
@@ -27,8 +26,8 @@ Tampilan Antarmuka
 | JavaScript    | Notifikasi waktu + audio           |
 | Docker        | Containerisasi aplikasi            |
 
+>Struktur Direktori
 
- Struktur Direktori
 reminder-obat/
 ├── app.py
 ├── init_db.py
@@ -42,10 +41,10 @@ reminder-obat/
 ├── static/
 │ └── alarm.mp3
 
-Akses di browser:
+>Akses di browser:
 http://localhost:5000
 
-Jalankan dengan Docker
+>Jalankan dengan Docker
 docker-compose up --build
 
 Nama: Bintang Bimantara Putra
